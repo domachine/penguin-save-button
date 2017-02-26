@@ -1,0 +1,36 @@
+{
+  "name": "penguin-save-button",
+  "version": "0.0.0",
+  "module": "index.js",
+  "scripts": {
+    "prepublishOnly": "rollup -c rollup.config.js -o index.js src/index.js",
+    "watch": "rollup -w -c rollup.config.js -o index.js src/index.js",
+    "test": "standard"
+  },
+  "keywords": [],
+  "author": "Dominik Burgdörfer <db@domachine.de> (https://domachine.de/)",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.41.4",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-watch": "^3.2.2",
+    "standard": "^8.6.0"
+  },
+  "description": "A simple save-button component for penguin.",
+  "main": "index.js",
+  "dependencies": {
+    "rollup": "^0.41.4",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-watch": "^3.2.2",
+    "standard": "^8.6.0",
+    "xtend": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domachine/penguin-save-button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/domachine/penguin-save-button/issues"
+  },
+  "homepage": "https://github.com/domachine/penguin-save-button#readme"
+}
